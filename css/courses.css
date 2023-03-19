@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300&family=Rubik+Distressed&family=Rubik:wght@600&family=Xanh+Mono:ital@1&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    background-color: #d3d3d3;
+}
+section{
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: white;
+}
+.header .flex{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    font-size: 30px;
+    color: blue;
+}
+.navbar a{
+    margin-left: 32px;
+    color: blue;
+    font-size: 20px;
+}
+.header .flex .navbar a:hover{
+    color: rebeccapurple;   
+}
+.logo{
+    cursor: default;
+}
+.courses{
+    margin-top: 100px;
+}
+.heading{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+span{
+    color: rebeccapurple;
+}
+.slide{
+    width: 240px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+.slide img{
+    height: 35px;
+    width: 100%;
+}
+.slide h3{
+    margin: 15px;
+    font-size: 30px;
+    color: rebeccapurple;
+}
+.slide p{
+    line-height: 2;
+    font-size: 12px;
+}
+.course-slider
+{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+text-align: left;
+}
+.search-container{
+    width: 95%;
+    margin: 0 auto;
+}
+#wrapper{
+    margin: 15px 0;
+    margin-bottom: 20px;
+}
+#wrapper input{
+    background-color: transparent;
+    width: 30%;
+    border-bottom: 2px solid #000;
+    padding: 1em 0.3em;
+}
+#wrapper button{
+    padding: 1em 2em;
+    margin-left: 1em;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+.list button{
+    margin: 2px;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.cathegories h4
+{
+    margin-bottom: 10px;
+}
+.cathegories{
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    width: 70%;
+    margin-bottom: 10px;
+}
